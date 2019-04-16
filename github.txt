@@ -18,3 +18,27 @@
 		the finally type "git push origin master"
 			Origin refers to the github copy of our repository
 			Master refers to the default branch in the repository
+			------------------------------------------------------------------------------------------------------
+Committing Your Work and Viewing Differences
+	
+		"git diff {name of the file}" e.g. git diff README.md
+			This command will show you all af the diferences that where made on this a specific file 
+			before staging it e.g (git add README.md)
+			IF all is ok then git add README.md THEN git commit -m "message" AND git push origin master
+
+Versions of your Work
+	"git log" will show you something like this:
+		commit 54d1694dd71c93cb316df7a5c3a61781e32c3efb (HEAD -> master, origin/master)
+		Author: Alejandro <test@test.com>
+		Date:   Tue Apr 16 11:23:22 2019 +0100
+
+			not necesary file deleted and update README
+
+		commit abe870c07cc844ee9507bd9bcd9829d11dafd019
+		Author: Alejandro <test@test.com>
+		Date:   Tue Apr 16 11:13:10 2019 +0100
+
+			first commit
+	"git checkout {commit number}" e.g git checkout abe870c07cc844ee9507bd9bcd98 (first commit)
+	will change the file to the version selected
+
