@@ -41,4 +41,7 @@ Versions of your Work
 			first commit
 	"git checkout {commit number}" e.g git checkout abe870c07cc844ee9507bd9bcd98 (first commit)
 	will change the file to the version selected
+	
+	"git checkout master"
+	will take you to the last updated version, (origin master)
 
