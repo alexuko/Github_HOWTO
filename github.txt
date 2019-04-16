@@ -1,13 +1,12 @@
  How to start using GITHUB
 	First go to the website https://github.com and create a new repository.
 	
-	then copy th url to clone the repository.
+	then copy th url provided by github to clone the repository.
 	
-	In git bash type $ git clone {repository URL} e.g. https://github.com/alexuko/Test.git
+	In git bash (command-line/terminal) type $ git clone {repository URL} e.g. https://github.com/alexuko/Test.git [name of the folder/repository{optional}]
 	
 	Testing:
-		echo "test git" >> start.txt This creates a txt file called start with text inside "test git"
-		
+			
 		then type "git status" again to check that there is an untracked file.
 		
 		type "git add start.txt" to add file or "git add ." to add everything
