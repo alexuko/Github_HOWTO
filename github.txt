@@ -44,4 +44,13 @@ Versions of your Work
 	
 	"git checkout master"
 	will take you to the last updated version, (origin master)
+	
+	---- GitIgnore ----
+	touch .gitignore && echo "node_modules/" >> .gitignore
+
+	touch will generate the .gitignore file if it doesn't already exist.
+
+	echo and >> will append node_modules/ at the end of .gitignore, causing the node_modules folder and all subfolders to be ignored.
+
+	
 
